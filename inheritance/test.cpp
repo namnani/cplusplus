@@ -15,7 +15,7 @@ class B : public A {
 class C : public B {
 	public:
 		C() { cout << "C" << endl; }
-		virtual ~C() { cout << "~C" << endl; }
+		~C() { cout << "~C" << endl; }
 };
 
 int main(void)
